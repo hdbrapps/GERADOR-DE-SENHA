@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="padlock.png">
+        <script src="https://kit.fontawesome.com/b5afd26a30.js" crossorigin="anonymous"></script>
+        <title>Gerador de senhas</title>  
+    </head>
+    <body>
+        <main id="all" class="main">
+            <section class="all">
+                <div class="darkMode" id="darkMode">
+                    <div id="ball" class="ball"></div>
+                    <i id="moon" class="fa-solid fa-moon"></i>
+                    <i id="sun" class="fa-solid fa-sun"></i>
+                </div>
+                <div id="back" class="todos">
+                    <h1 class="titulo_before" id="h1">Copiado!</h1>
+                    <div id="generatePw">
+                        <div class="header">
+                            <i id="copiar" class="fa-regular fa-copy"></i>
+                            <input disabled id="pw"></input>
+                        </div>
+                        
+                        <div id="nivel" class="nivel">
+                            <div id="barra" class="barra"></div>
+                            <div class="barra2"></div>
+                        </div>
+
+                        <div class="body">
+                            <div class="selects">
+
+                                <div class="cond1">
+                                    <label for="tam" id="tamanho">Tamanho</label>
+                                    <input value="8" id="tam" type="number" min="4" max="30">
+                                </div>
+
+                                <div class="cond1">
+                                    <label for="Up" id="lablUp">Letras minúsculas</label>
+                                    <input id="Up" type="checkbox">
+                                </div>
+
+                                <div class="cond1">
+                                    <label for="Dw" id="lablUp">Letras maiúsculas</label>
+                                    <input id="Dw" type="checkbox">
+                                </div>
+
+                                <div class="cond1">
+                                    <label for="Num" id="Number">Numeros</label>
+                                    <input id="Num" type="checkbox">
+                                </div>
+
+                                <div class="cond1">
+                                    <label for="Sim" id="Simbolo">Símbolos</label>
+                                    <input id="Sim" type="checkbox">
+                                </div>
+                            </div>
+
+                            <button id="gerar">Gerar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
