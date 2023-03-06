@@ -15,7 +15,7 @@
 .todos{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(45deg, #e1e1e1 0%, #f3f3f3 100%);
+    background-image: linear-gradient(45deg, #a29b9b 0%, #f3f3f3 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +97,7 @@
 #generatePw{
     width: 400px;
     height: 330px;
-    background-color: #dd6f44;
+    background-color: #015fa2;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@
     border: 0;
     outline: 0;
     border-radius: 4px;
-    background-color: #0099ff;
+    background-color: #840000;
     outline: none;
     box-shadow: inset 0px 0 4px #004f87c2;
     display: flex;
@@ -156,7 +156,7 @@
 .cond1 input{
     width: 19px;
     height: 19px;
-    accent-color: #0098e9;
+    accent-color: #840000;
 }
 
 #tam{
@@ -193,7 +193,7 @@
     height: 40px;
     border: 0;
     border-radius: 5px;
-    background-color: #0095ff;
+    background-color: #840000;
     box-shadow: 1px 6px 0px #005cd5cf;
     font-size: 30px;
     color: #eeeeee;
@@ -222,8 +222,8 @@
     position: absolute;
     right: 5.6%;
     padding: 3px;
-    box-shadow: -15px 0 13px #0095ffab;
-    background-color: #0095ff;
+    box-shadow: -15px 0 13px #840000;
+    background-color: #840000;
 
 }
 
@@ -279,7 +279,7 @@
     
     #generatePw{
         width: 95%;
-        height: 330px;
+        height: 490px;
         background-color: #006eff;
         border-radius: 10px;
         display: flex;
