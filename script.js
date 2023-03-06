@@ -35,7 +35,8 @@ btnCopy.addEventListener("click", function(){
     titulo.style.opacity = "100%";
     titulo.style.transition = ".3s";
     setTimeout(desa, 3000);
-    
+    select();
+setSelectionRange(0, 99999);
 })
 
 const getLowercase = () =>{
@@ -150,5 +151,5 @@ function generatPassoword(Upp ,Symb ,Low ,Nums ,lengths){
 
 btnCopy.addEventListener("click", () =>{
     navigator.clipboard.writeText(result.value);
-setSelectionRange(0, 99999);
+
 })
