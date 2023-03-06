@@ -95,9 +95,9 @@
 }
 
 #generatePw{
-    width: 400px;
-    height: 330px;
-    background-color: #015fa2;
+    width: 95%;
+    height: 490px;
+    background-color: #006eff;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
