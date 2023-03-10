@@ -153,3 +153,19 @@ btnCopy.addEventListener("click", () =>{
     navigator.clipboard.writeText(result.value);
 
 })
+ 
+function copiarSenha() {
+    var pw = document.getElementById("pw");
+    pw.removeAttribute("disabled");
+    pw.select();
+    document.execCommand("copy");
+    pw.setAttribute("disabled", true);
+    
+    var h1 = document.getElementById("h1");
+    h1.style.visibility = "visible";
+    setTimeout(function() {
+      h1.style.visibility = "hidden";
+    }, 2000);
+  }
+  
+  
